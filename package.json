@@ -1,13 +1,13 @@
 {
-  "name": "webpack-js-starter",
+  "name": "webpack-js-boilerplate",
   "version": "1.0.0",
-  "description": "starter code for a generic javascript app",
+  "description": "boilerplate code for a generic javascript app",
   "license": "MIT",
-  "repository": "git@github.com:ericyliu/webpack-js-starter.git",
+  "repository": "git@github.com:ericyliu/webpack-js-boilerplate.git",
   "scripts": {
     "build": "webpack",
-    "flow": "flow",
     "dev": "./scripts/dev.sh",
+    "flow": "flow",
     "lint": "eslint --ext .js --config .eslintrc --fix app",
     "test": "mocha-webpack --opts ./test/mocha.opts '{,!(node_modules)/**}/*.test.js'",
     "pre-push-check": "yarn flow && yarn lint && yarn test && yarn build"
