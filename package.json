@@ -32,12 +32,15 @@
     "eslint-plugin-react": "^7.9.1",
     "flow-babel-webpack-plugin": "^1.1.1",
     "flow-bin": "^0.75.0",
+    "inject-loader": "^4.0.1",
     "mocha": "^5.2.0",
     "mocha-webpack": "v2.0.0-beta.0",
     "nodemon": "^1.17.5",
+    "proxyquire": "^2.0.1",
     "sinon": "^6.0.1",
     "sinon-chai": "^3.2.0",
     "webpack": "^4.12.1",
     "webpack-cli": "^3.0.8"
-  }
+  },
+  "dependencies": {}
 }

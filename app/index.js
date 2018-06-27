@@ -1,4 +1,6 @@
 // @flow
-const helloWorld = (input: string): string => `${input} ${process.env.SAMPLE || ''}`;
+import RewiredComponent from 'app/rewired_component';
+
+const helloWorld = (input: string): string => `${input} ${RewiredComponent} ${process.env.SAMPLE || ''}`;
 
 export default helloWorld;
